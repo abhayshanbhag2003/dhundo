@@ -1,7 +1,5 @@
 # Gemini - Agentic AI Research Assistant
 
-author: Ardya Dipta Nandaviri ([GDE in AI/ML](https://g.dev/ardyadipta)) | date: Feb 20, 2025
-
 
 ## Overview
 This project implements an **Agentic AI Research Assistant** using **Google Generative AI** and **Retrieval-Augmented Generation (RAG)**. The system first checks if an answer exists in a **FAISS vector database** before searching the web for new information. If a match is found, the stored response is returned. Otherwise, the assistant performs a web search, summarizes the results, and stores the new information for future use.
